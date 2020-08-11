@@ -1,0 +1,62 @@
+@font-face {
+  font-family: BMJUA_otf;
+  src: url("../fonts/BMJUA_otf.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0E8D9;
+  font-family: BMJUA_otf;
+  color: #58595B;
+}
+
+#header {
+  margin: 75px 0;
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 30px;
+  font-size: 64px;
+}
+
+#sub-title {
+  font-size: 32px;
+}
+
+.menu-box {
+  margin: 0 auto 50px;
+  width: 300px;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.menu-image img {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.menu-content {
+  padding: 20px;
+}
+
+.menu-title {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.menu-desc {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.payment-btn {
+  font-size: 16px;
+  color: #0000EE;
+  text-align: center;
+}
