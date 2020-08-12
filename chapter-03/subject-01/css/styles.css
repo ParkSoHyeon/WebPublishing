@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+
+/* 모바일 */
+@media (max-width: 767px) {
+  #div1 {
+    background-color: #FF0000;
+    height: 60px;
+  }
+
+  #div2 {
+    background-color: #FFA500;
+    height: 350px;
+  }
+
+  #div3 {
+    background-color: #FFFF00;
+    height: 320px;
+  }
+
+  #div4 {
+    background-color: #008000;
+    height: 385px;
+  }
+
+  #div5 {
+    background-color: #0000FF;
+    height: 200px;
+  }
+
+  #div6 {
+    background-color: #4B0082;
+    height: 200px;
+  }
+}
+
+/* 태블릿 */
+@media (min-width: 768px) and (max-width: 991px) {
+  #div1 {
+    background-color: #FF0000;
+    height: 60px;
+  }
+
+  #div2 {
+    background-color: #FFA500;
+    height: 562px;
+  }
+
+  #div3 {
+    background-color: #FFFF00;
+    height: 282px;
+  }
+
+  #div4 {
+    width: 50%;
+    background-color: #008000;
+    height: 360px;
+    float: left;
+  }
+
+  #div5 {
+    width: 50%;
+    background-color: #0000FF;
+    height: 180px;
+    float: left;
+  }
+
+  #div6 {
+    width: 50%;
+    background-color: #4B0082;
+    height: 180px;
+    float: left;
+  }
+}
+
+/* 데스크탑 */
+@media (min-width: 992px) {
+  #div1 {
+    background-color: #FF0000;
+    height: 60px;
+  }
+
+  #div2 {
+    width: 50%;
+    background-color: #FFA500;
+    height: 700px;
+    float: left;
+  }
+
+  #div3 {
+    width: 50%;
+    background-color: #FFFF00;
+    height: 350px;
+    float: left;
+  }
+
+  #div4 {
+    width: 25%;
+    background-color: #008000;
+    height: 350px;
+    float: left;
+  }
+
+  #div5 {
+    width: 25%;
+    background-color: #0000FF;
+    height: 175px;
+    float: left;
+  }
+
+  #div6 {
+    width: 25%;
+    background-color: #4B0082;
+    height: 175px;
+    float: left;
+  }
+}
